@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #007BFF;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Buttons */
+.action-btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px 25px;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.action-btn:hover {
+    background: #0056b3;
+}
+
+/* Chat Styles */
+#chat-window {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    padding: 15px;
+}
+
+#chat-messages {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    width: calc(100% - 20px);
+    height: 60px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Recommendations */
+.recommendations ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendations ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.recommendations ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.recommendations ul li a:hover {
+    text-decoration: underline;
+}
